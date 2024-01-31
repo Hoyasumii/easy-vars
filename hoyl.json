@@ -1,0 +1,6 @@
+{
+  "name": "My website",
+  "separator": "|",
+  "titleStartsWithName": false,
+  "defaultFolder": "src"
+}

@@ -1,0 +1,52 @@
+{
+  "name": "easy-vars",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Template facilitado que vem instalado por padrão o Vite, Ant Design, React(com Router e Icons), Sass, Typescript, ESLINT, Prettier e mais algumas coisinhas voltadas à produtividade ",
+  "scripts": {
+    "start:dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hoyasumii/easy-vars.git"
+  },
+  "keywords": [
+    "npm",
+    "template",
+    "react",
+    "vite",
+    "react-router",
+    "react-icons",
+    "sass",
+    "typescript",
+    "eslint",
+    "prettier"
+  ],
+  "author": "Alan Reis",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Hoyasumii/easy-vars/issues"
+  },
+  "homepage": "https://github.com/Hoyasumii/easy-vars#readme",
+  "dependencies": {
+    "antd": "^5.13.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.0.1",
+    "react-router-dom": "^6.21.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "@typescript-eslint/parser": "^6.20.0",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "eslint": "^8.56.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "prettier": "^3.2.4",
+    "sass": "^1.70.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.12"
+  }
+}
