@@ -4,10 +4,10 @@ import { Layout } from "antd";
 
 const { Content } = Layout;
 
-const View: React.FC<TemplatePropsView> = (props: TemplatePropsView) => {
+const View: React.FC<TemplatePropsView> = ({ children }: TemplatePropsView) => {
   return (
     <Layout className="layout">
-      <Content>{props.children ? props.children : <Outlet />}</Content>
+      <Content>{children ? children : <Outlet />}</Content>
     </Layout>
   );
 };

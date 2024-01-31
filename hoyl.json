@@ -1,7 +1,8 @@
 {
   "name": "My website",
-  "separator": "|",
+  "titleSeparator": "|",
   "titleStartsWithName": false,
   "defaultFolder": "src",
-  "darkTheme": true
+  "darkTheme": true,
+  "accentColor": "#f64348"
 }

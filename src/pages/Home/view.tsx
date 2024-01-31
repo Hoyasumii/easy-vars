@@ -1,13 +1,12 @@
 import React from "react";
-import { Button, Typography } from "antd";
+import { Typography } from "antd";
 
-const { Paragraph, Text, Title } = Typography;
+const { Paragraph } = Typography;
 
 export default (): React.ReactElement => {
   return (
     <div>
-      <Paragraph>Eu sou Lillyssexual</Paragraph>
-      <Button type="primary">Hello</Button>
+      <Paragraph>Hello World!</Paragraph>
     </div>
   );
 }

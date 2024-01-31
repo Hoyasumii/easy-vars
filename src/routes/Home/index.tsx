@@ -1,10 +1,10 @@
 import { Template } from "@components";
 import { Home } from "@pages";
-import { Controller } from "../types";
+import { RouteObject } from "react-router-dom";
 
-const HomeRoute: Controller = {
+const HomeRoute: RouteObject = {
   path: "/",
-  element: <Template title="Página Inicial" />,
+  element: <Template title="Homepage" />,
   children: [
     {
       index: true,
