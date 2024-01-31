@@ -1,7 +1,12 @@
-import { createElement } from "react";
+import { createElement, useEffect } from "react";
 import View from "./view";
-import TemplateProps from "./types";
+import { TemplateProps } from "./types";
+import { setPageTitle } from "@utils";
 
 export default (props: TemplateProps) => {
-  return createElement(View, props);
+  useEffect(() => {
+    setPageTitle(props.title);
+  }, [props.title]);
+
+  return createElement(View, { children: props?.children });
 };

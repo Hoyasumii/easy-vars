@@ -1,14 +1,14 @@
-import React, { useEffect } from "react";
-import TemplateProps from "./types";
-import { setPageTitle } from "@utils";
+import { TemplatePropsView } from "./types";
 import { Outlet } from "react-router-dom";
+import { Layout } from "antd";
 
-const View: React.FC<TemplateProps> = (props: TemplateProps) => {
-  useEffect(() => {
-    setPageTitle(props.title);
-  }, [props.title]);
+const { Content } = Layout;
 
-  return <>{props.children ? props.children : <Outlet />}</>;
+const View: React.FC<TemplatePropsView> = (props: TemplatePropsView) => {
+  return (
+    <Layout className="layout">
+      <Content>{props.children ? props.children : <Outlet />}</Content>
+    </Layout>
+  );
 };
-
 export default View;

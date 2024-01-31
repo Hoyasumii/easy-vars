@@ -1,4 +1,4 @@
-import data from "../../hoyl.json";
+import data from "@root/hoyl.json";
 
 export default (title: string): void => {
   if (data.titleStartsWithName) {

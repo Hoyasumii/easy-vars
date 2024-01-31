@@ -10,6 +10,8 @@ export default defineConfig({
       '@pages': new URL('./src/pages', import.meta.url).pathname,
       '@routes': new URL('./src/routes', import.meta.url).pathname,
       '@utils': new URL('./src/utils', import.meta.url).pathname,
+      '@styles': new URL('./src/styles', import.meta.url).pathname,
+      '@root': new URL('./', import.meta.url).pathname,
     }
   }
 })
